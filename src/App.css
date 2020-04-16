@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  background-color: rgba(14, 105, 105, 0.726);
+}
+#ruler{
+  width: 98%;
+  height: 5px;
+  background-color:rgba(165, 37, 37, 0.76);
+  margin: 10px;
+}
+
+.tarun{
+  width: auto;
+  margin: 30px 30px 0px 30px;height: 250px;
+  border-radius: 250px;
+}
+.name{
+  font-size: 70px;
+  font-variant: ;
+  color: white;
+  font-weight: lighter;
+  font-family: sans-serif;
+ /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif */
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.namep{
+  font-size: 30px;
+  line-height: .1cm;
+  font-family: cursive;
+  color: white;
+
+}
+.SkillSet{
+  font-size: 30px;
+  font-family: serif;
+  color:rgba(241, 242, 247, 0.74);
+}
+.links{
+  font-size: 50px;
+  color: white;
+  margin: 20px;
+}
+
+
+@media screen and (max-height:550px)
+{
+  
+  .tarun{
+    width: 120px;
+    height: 120px;
+    margin:20px 20px 10px 20px;
+  }
+  .name{
+    font-size: 25px;
+  }
+  #ruler{
+    width: 98%;
+    height: 2px;
+    background-color:rgb(175, 14, 14);
+    margin: 5px;
+    
+  }
+  .links{
+    font-size: 25px;
+    color: white;
+    margin: 10px;
+  }
+  .SkillSet{
+    font-size: 15px;
+    font-family: serif;
+    color:rgba(241, 242, 247, 0.74);
+  }
+  .namep{
+    font-size: 15px;
+    line-height: .1cm;
+    font-family: cursive;
+    color: white;
+  }  
+}
